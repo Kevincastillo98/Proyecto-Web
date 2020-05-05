@@ -3,10 +3,8 @@ from flask_session import Session
 from flask import Flask, render_template, redirect, request, session, jsonify
 from datetime import datetime
 
-# # Instantiate Flask object named app
 app = Flask(__name__)
 
-# # Configure sessions
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
@@ -207,7 +205,7 @@ def logged():
     if 'user' in session:
         return redirect ( "/" )
     # If username is not in the database return the log in page
-    return render_template ( "login.html", msg="Wrong username or password." )
+    return render_template ( "login.html", msg="Usuario o password invalidos." )
 
 
 @app.route("/history/")
@@ -246,7 +244,7 @@ def registration():
     rows = db.execute( "SELECT * FROM users WHERE username = :username ", username = username )
     # If username already exists, alert user
     if len( rows ) > 0:
-        return render_template ( "new.html", msg="Username already exists!" )
+        return render_template ( "new.html", msg="Este Username ya existe!" )
     # If new user, upload his/her info into the users database
     new = db.execute ( "INSERT INTO users (username, password, fname, lname, email) VALUES (:username, :password, :fname, :lname, :email)",
                     username=username, password=password, fname=fname, lname=lname, email=email )
