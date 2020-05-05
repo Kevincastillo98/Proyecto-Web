@@ -1,4 +1,4 @@
-![Logo]("https://github.com/Kevincastillo98/Proyecto-Web/blob/master/ImagenesRepo/Logo.png")
+![](https://github.com/Kevincastillo98/Proyecto-Web/blob/master/ImagenesRepo/Logo.png)
 
 # Diseño del sistema CompraFut
 
@@ -15,7 +15,7 @@ diferentes playeras deportivas que pueden ser compradas de forma online.
 **SOlución tecnológica**
 
 **Arquitectura:**
-![]("https://github.com/Kevincastillo98/Proyecto-Web/blob/master/Esquemas/esquema.png")
+![](https://github.com/Kevincastillo98/Proyecto-Web/blob/master/Esquemas/esquema.png)
 
 
 **Diseño y manejo de datos:**
