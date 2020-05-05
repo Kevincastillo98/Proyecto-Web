@@ -1,6 +1,4 @@
-![](https://github.com/Kevincastillo98/Proyecto-Web/blob/master/ImagenesRepo/Logo.png)
-
-# Diseño del sistema CompraFut
+# Diseño del sistema CompraFut ![](https://github.com/Kevincastillo98/Proyecto-Web/blob/master/ImagenesRepo/Logo2.png)
 
 **Resumen:** Este proyecto tiene como objetivo la creación de
 una página web que pueda gestionar la venta de playeras
