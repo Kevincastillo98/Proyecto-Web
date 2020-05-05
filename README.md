@@ -1,4 +1,6 @@
-# Diseño del sistema CompraFut ![](https://github.com/Kevincastillo98/Proyecto-Web/blob/master/ImagenesRepo/Logo2.png)
+![](https://github.com/Kevincastillo98/Proyecto-Web/blob/master/ImagenesRepo/Logo2.png)
+
+# Diseño del sistema CompraFut 
 
 **Resumen:** Este proyecto tiene como objetivo la creación de
 una página web que pueda gestionar la venta de playeras
@@ -13,6 +15,7 @@ diferentes playeras deportivas que pueden ser compradas de forma online.
 **SOlución tecnológica**
 
 **Arquitectura:**
+
 ![](https://github.com/Kevincastillo98/Proyecto-Web/blob/master/Esquemas/esquema.png)
 
 
