@@ -76,7 +76,7 @@ no puede agregar el articulo a la canasta de compras:
 
 ![](https://github.com/Kevincastillo98/Proyecto-Web/blob/master/ImagenesRepo/EligeCamisa.png)
 
-Si el usuario agrega el número de playeras a comprar y además da click en “Agregar al carrito”,este
+Si el usuario agrega el número de playeras a comprar y además da click en `Agregar al carrito`,este
 será enviado a la canasta de compras:
 
 ![](https://github.com/Kevincastillo98/Proyecto-Web/blob/master/ImagenesRepo/SeleccionaCamisa.png)
